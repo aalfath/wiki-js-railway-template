@@ -1,3 +1,5 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/wikijs-2?utm_medium=integration&utm_source=button&utm_campaign=wikijs)
+
 # Wiki.js on Railway
 
 This repo is the Railway template for [Wiki.js](https://js.wiki), the open-source wiki built on Node.js and PostgreSQL. Railway builds the `Wiki.js` service from this repo.
