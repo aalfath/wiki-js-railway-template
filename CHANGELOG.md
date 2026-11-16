@@ -2,6 +2,10 @@
 
 Each entry is one version of this Railway template. Breaking changes come first.
 
+## 3.4.0-1 (2026-11-16)
+
+- README: add the Deploy on Railway button for the published template `wikijs-2`. No change to the app or its image.
+
 ## 3.4.0 (2026-11-16)
 
 - First release of the template: Wiki.js 3.4.0
