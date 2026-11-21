@@ -8,7 +8,7 @@ This repo is the Railway template for [Wiki.js](https://js.wiki), the open-sourc
 
 | Service | Source | Notes |
 |---|---|---|
-| **Wiki.js** | this repo (`Dockerfile`) | Official image `ghcr.io/requarks/wiki:3.4.0`, pinned by digest. Public domain on port 3000, health check `/_ready`, volume at `/wiki/data` |
+| **Wiki.js** | this repo (`Dockerfile`) | Official image `ghcr.io/requarks/wiki:3.5.0`, pinned by digest. Public domain on port 3000, health check `/_ready`, volume at `/wiki/data` |
 | **Postgres** | Railway PostgreSQL 18 | Wiki.js 3 needs PostgreSQL 17 or later. Pages, users, settings and uploaded files live here |
 
 The wrapper is small: `railway-start.sh` gives the `node` user the Railway volume, maps Railway's `PORT` to `WIKI_PORT`, then starts Wiki.js unprivileged.
