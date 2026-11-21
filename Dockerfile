@@ -1,6 +1,6 @@
-# Wiki.js 3.4.0, pinned by version and digest (multi-arch index: linux/amd64 + linux/arm64).
+# Wiki.js 3.5.0, pinned by version and digest (multi-arch index: linux/amd64 + linux/arm64).
 # Bump both the tag and the digest together, and add a CHANGELOG.md entry.
-FROM ghcr.io/requarks/wiki:3.4.0@sha256:9424867464d9d899f975bbadb8ff1f794341eadd720b5fb5c22f0988c62e29bf
+FROM ghcr.io/requarks/wiki:3.5.0@sha256:3de0495234db06fc3ad78b8a6dc71ff297b55ed0d3b37d61eb0fbfe767f6e5b6
 
 # Start as root only long enough to give the `node` user the Railway volume
 # (Railway mounts volumes owned by root), then drop privileges.
